@@ -760,19 +760,19 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input class="form-control" id="age" placeholder="age" required="required" data-validation-required-message="Please enter Age.">
+										<input class="form-control" id="age" name="age" placeholder="age" required="required" data-validation-required-message="Please enter Age.">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea class="form-control" id="address" placeholder="Your address" required="required" data-validation-required-message="Please enter your address."></textarea>
+										<textarea class="form-control" id="address" name="address" placeholder="Your address" required="required" data-validation-required-message="Please enter your address."></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input class="form-control" id="password" placeholder="password" type="password" required="required" data-validation-required-message="Please enter your password.">
+										<input class="form-control" id="password" placeholder="password" name="password" type="password" required="required" data-validation-required-message="Please enter your password.">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>

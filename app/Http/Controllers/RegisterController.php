@@ -10,7 +10,7 @@ use App\Models\UserDetail;
 class RegisterController extends Controller
 {
     function signup(Request $request){
-        return view('salon'); 
+        return view('index'); 
     }
     
         function register(Request $request){
@@ -22,7 +22,7 @@ class RegisterController extends Controller
                 'email'=>'required|unique:users',
                 'password'=>'required|min:6',
                 'name'=>'required',
-                'phone'=>'required|max:10|min:10
+                'phone'=>'required|max:10|min:10',
             ];
           
             $validator = Validator::make($data,$rules);
@@ -55,4 +55,5 @@ class RegisterController extends Controller
             ];
             return response()->json($response, 200);
         }
+        
 }
